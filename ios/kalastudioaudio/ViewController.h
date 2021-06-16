@@ -7,7 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIDocumentPickerDelegate,UIDocumentInteractionControllerDelegate>
+- (IBAction)openFile:(id)sender;
 
 
 @end
